@@ -1,16 +1,20 @@
 import React from 'react';
-
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 import GlobalStyle from './styles/global';
-import BackgroundParticles from './components/BackgroundParticles';
+import ContainerApp from './components/ContainerApp';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <BackgroundParticles>
-        <h1>Juliano Sirtori</h1>
-      </BackgroundParticles>
-
+      <BrowserRouter>
+        <ContainerApp>
+          <Menu />
+          <Routes />
+        </ContainerApp>
+      </BrowserRouter>
     </>
   );
 }
