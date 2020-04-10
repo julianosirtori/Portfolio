@@ -15,12 +15,15 @@ export default function Home() {
         </span>
         <span>um Full Stack Developer</span>
         <SocialLinks>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a href="https://github.com/julianosirtori" target="_blank">
             <FaGithub size={21} />
           </a>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a href="https://www.linkedin.com/in/juliano-sirtori/" target="_blank">
             <FaLinkedin size={21} />
           </a>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a href="https://www.instagram.com/julianosirtori/" target="_blank">
             <FaInstagram size={21} />
           </a>

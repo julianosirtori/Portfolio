@@ -27,6 +27,5 @@ module.exports = {
       { extensions: ['.jsx', '.js'] }
   ],
   'import/prefer-default-export': 'off',
-  'react/jsx-no-target-blank': 'off'
   },
 };
